@@ -1,6 +1,6 @@
 import socket
 import ssl
-import threading
+import threading #using threading makes bg tasks easier and is v good for multiclient working moreover it helps prevent lags and glitches
 import os
 import time
 
@@ -16,7 +16,6 @@ KEY_FILE = os.path.join(BASE_DIR, "key.pem")
 
 connected_clients = 0
 lock = threading.Lock()
-
 
 def handle_client(conn, addr):
     global connected_clients
