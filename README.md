@@ -137,8 +137,7 @@ Place .mp3 files inside:
 
 ---
 
-##Team
-1.## 👥 Team Members
+##  Team Members
 
 - Kirthana S : (https://github.com/kirthana17)  
 - Manasvi G V : (https://github.com/oomploompaluvr)
