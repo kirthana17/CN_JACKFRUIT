@@ -6,6 +6,7 @@ import time
 HOST = '0.0.0.0'
 PORT = 5000
 CHUNK_SIZE = 4096
+#chunk size
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SONG_FOLDER = os.path.join(BASE_DIR, "songs")
