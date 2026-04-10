@@ -9,6 +9,35 @@ The system ensures secure communication using SSL/TLS encryption and supports mu
 handling using threading.
 
 ---
+## Workflow 
+
+[start]
+     ↓
+[GUI Window Opens]
+     ↓
+[User clicks "Connect"]
+     ↓
+[Client connects to server]
+     ↓
+[Server sends song list]
+     ↓
+[Songs shown in listbox]
+     ↓
+[User selects song]
+     ↓
+[User clicks "Play"]
+     ↓
+[Client requests song]
+     ↓
+[Server sends file in chunks]
+     ↓
+[Client downloads + updates progress]
+     ↓
+[Song plays using pygame]
+     ↓
+[Playback ends → cleanup]
+
+---
 
 ## Features
 
