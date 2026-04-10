@@ -1,10 +1,21 @@
-key.pem
-*/key.pem
-cert.pem
-*/cert.pem
-songs/
-*/songs/
+# SSL keys — never upload
+**/cert.pem
+**/key.pem
+
+# Song files — too large, but keep the folder
+**/songs/*.mp3
+**/songs/*.wav
+**/songs/*.flac
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# OS files
 .DS_Store
 Thumbs.db
