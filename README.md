@@ -11,32 +11,33 @@ handling using threading.
 ---
 ## Workflow 
 
-[start]
-     ↓
-[GUI Window Opens]
-     ↓
-[User clicks "Connect"]
-     ↓
-[Client connects to server]
-     ↓
-[Server sends song list]
-     ↓
-[Songs shown in listbox]
-     ↓
-[User selects song]
-     ↓
-[User clicks "Play"]
-     ↓
-[Client requests song]
-     ↓
-[Server sends file in chunks]
-     ↓
-[Client downloads + updates progress]
-     ↓
-[Song plays using pygame]
-     ↓
-[Playback ends → cleanup]
-
+START
+  ↓
+GUI Window Opens
+  ↓
+User clicks "Connect"
+  ↓
+Client connects to Server
+  ↓
+Server sends Song List
+  ↓
+Songs displayed in Listbox
+  ↓
+User selects a Song
+  ↓
+User clicks "Play"
+  ↓
+Client sends request to Server
+  ↓
+Server streams file in chunks
+  ↓
+Client receives data & updates progress
+  ↓
+Song plays using Pygame
+  ↓
+Playback ends → Cleanup performed
+  ↓
+END
 ---
 
 ## Features
