@@ -33,7 +33,7 @@ def handle_client(conn, addr):
         song_list = "\n".join(f"{i+1}. {song}" for i, song in enumerate(songs))
         conn.send(song_list.encode())
 
-        # ---- RECEIVE PLAY REQUEST ----
+        #recieving play request 
         request = conn.recv(1024).decode().strip()
         # Expected format: PLAY|2
 
