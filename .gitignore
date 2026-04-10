@@ -1,0 +1,10 @@
+key.pem
+*/key.pem
+cert.pem
+*/cert.pem
+songs/
+*/songs/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
