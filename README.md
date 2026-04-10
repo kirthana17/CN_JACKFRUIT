@@ -1,64 +1,91 @@
-# CN_Jackfruit - Music Streaming App
+# 🎵 CN_Jackfruit - Music Streaming App
 
 Secure client-server music streaming app built with Python using SSL/TLS encryption and a Tkinter GUI.
 
-## Features
+---
 
-- Secure SSL/TLS encrypted connection
-- Real-time MP3 streaming
-- Search and filter songs
-- Download progress bar
-- Multi-client support (threaded server)
+## ✨ Features
 
-## Project Structure
+* Secure SSL/TLS encrypted connection
+* Real-time MP3 streaming
+* Search and filter songs
+* Download progress bar
+* Multi-client support (threaded server)
 
-    CN_Jackfruit/
-    ├── music-streaming/
-    │   ├── client/
-    │   │   └── client_gui.py
-    │   └── server/
-    │       ├── songs/        <- add your .mp3 files here
-    │       ├── cert.pem      <- generate locally, not in repo
-    │       ├── key.pem       <- generate locally, not in repo
-    │       └── server.py
-    ├── client1.py
-    ├── server1.py
-    ├── requirements.txt
-    └── README.md
+---
 
-## Setup Instructions
+## 📁 Project Structure
 
-### 1. Install dependencies
+```
+CN_Jackfruit/
+│
+├── music-streaming/
+│   ├── client/
+│   │   └── client_gui.py
+│   │
+│   └── server/
+│       ├── songs/        # add your .mp3 files here
+│       ├── cert.pem      # generate locally, not in repo
+│       ├── key.pem       # generate locally, not in repo
+│       └── server.py
+│
+├── client1.py
+├── server1.py
+├── requirements.txt
+└── README.md
+```
 
-    pip install -r requirements.txt
+---
 
-### 2. Generate SSL certificates
+## ⚙️ Setup Instructions
 
-Run this inside the server/ folder:
+### 📦 1. Install dependencies
 
-    openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -nodes
+```
+pip install -r requirements.txt
+```
 
-### 3. Add songs
+### 🔐 2. Generate SSL certificates
 
-Place .mp3 files inside music-streaming/server/songs/
+Run this inside the `server/` folder:
 
-### 4. Run the server
+```
+openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -nodes
+```
 
-    python music-streaming/server/server.py
+### 🎧 3. Add songs
 
-### 5. Run the client
+Place `.mp3` files inside:
 
-    python music-streaming/client/client_gui.py
+```
+music-streaming/server/songs/
+```
 
-## How to Use
+### 🚀 4. Run the server
 
-1. Click Connect to connect to the server
+```
+python music-streaming/server/server.py
+```
+
+### 💻 5. Run the client
+
+```
+python music-streaming/client/client_gui.py
+```
+
+---
+
+## 🧑‍💻 How to Use
+
+1. Click **Connect** to connect to the server
 2. Browse or search for a song
-3. Click Play to stream it
-4. Click Stop to stop playback
+3. Click **Play** to stream it
+4. Click **Stop** to stop playback
 
-## Requirements
+---
 
-- Python 3.7+
-- pygame
-- OpenSSL for certificate generation
+## 📌 Requirements
+
+* Python 3.7+
+* pygame
+* OpenSSL for certificate generation
