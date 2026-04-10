@@ -1,6 +1,6 @@
-# 🎵 CN_Jackfruit — Music Streaming App
+# CN_Jackfruit — Music Streaming App
 
-## 📌 Overview
+## Overview
 
 This project implements a secure music streaming system using socket programming in Python.
 It allows multiple clients to connect to a central server, browse songs, and stream MP3s in real time.
@@ -10,19 +10,19 @@ handling using threading.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔗 Multi-client server using TCP sockets
-- 🔐 Secure communication using SSL/TLS
-- 🧵 Concurrent client handling (multithreading)
-- 🎵 Real-time MP3 streaming
-- 🔍 Search and filter songs
-- 📊 Download progress bar
-- 🖥️ GUI-based client (Tkinter)
+- Multi-client server using TCP sockets
+- Secure communication using SSL/TLS
+- Concurrent client handling (multithreading)
+- Real-time MP3 streaming
+- Search and filter songs
+- Download progress bar
+- GUI-based client (Tkinter)
 
 ---
 
-## 🏗️ Project Structure
+##Project Structure
 
     CN_Jackfruit/
     │
@@ -46,7 +46,7 @@ handling using threading.
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - Python
 - Socket Programming
@@ -56,13 +56,13 @@ handling using threading.
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Install dependencies
+### 1.Install dependencies
 
     pip install -r requirements.txt
 
-### 2️⃣ Generate SSL certificates
+### 2️.Generate SSL certificates
 
 Run this inside the certs/ folder:
 
@@ -70,31 +70,31 @@ Run this inside the certs/ folder:
 
 Then copy cert.pem and key.pem into music-streaming/server/
 
-### 3️⃣ Add songs
+### 3️.Add songs
 
 Place .mp3 files inside:
 
     music-streaming/server/songs/
 
-### 4️⃣ Run the server
+### 4️.Run the server
 
     python music-streaming/server/server.py
 
-### 5️⃣ Run the client
+### 5️.Run the client
 
     python music-streaming/client/client_gui.py
 
-### 6️⃣ Run Load Test (Optional)
+### 6️.Run Load Test (Optional)
 
     python tests/load_test.py
 
-### 7️⃣ Run Performance Test (Optional)
+### 7️.Run Performance Test (Optional)
 
     python tests/performance_test.py
 
 ---
 
-## 🔐 Security
+## Security
 
 - Uses SSL/TLS encryption for all client-server communication
 - Certificates generated locally and excluded from repository
@@ -102,23 +102,23 @@ Place .mp3 files inside:
 
 ---
 
-## 📊 Deliverables Achieved
+## Deliverables Achieved
 
-### ✅ Deliverable 1
+### Deliverable 1
 - Multi-client server implementation
 - SSL/TLS secure communication
 - Real-time MP3 streaming with Tkinter GUI
 - Song search and filter
 - Progress bar during streaming
 
-### ✅ Deliverable 2
+### Deliverable 2
 - Performance testing using multiple simultaneous clients
 - Failure handling (invalid inputs, disconnections, bad requests)
 - Optimization (buffer tuning, threaded client handling, socket reuse)
 
 ---
 
-## 📈 Performance Insights
+## Performance Insights
 
 - Supports multiple concurrent clients
 - Response time varies based on load
@@ -127,7 +127,7 @@ Place .mp3 files inside:
 
 ---
 
-## 🎯 Future Enhancements
+## Future Enhancements
 
 - Web-based interface (Flask)
 - Database integration (MySQL)
@@ -137,7 +137,15 @@ Place .mp3 files inside:
 
 ---
 
-## ⭐ Acknowledgment
+##Team
+1.## 👥 Team Members
+
+- Kirthana S : (https://github.com/kirthana17)  
+- Manasvi G V : (https://github.com/oomploompaluvr)
+- Mallikarjuna Rao R V : (https://github.com/mallikarjunramanadham1-sketch)
+
+
+## Acknowledgment
 
 This project was developed as part of a Computer Networks mini project,
 focusing on distributed systems and secure communication.
