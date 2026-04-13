@@ -170,11 +170,12 @@ Place .mp3 files inside:
 
 ---
 
-##  Team Members
+## Team Members
 
-- Kirthana S : (https://github.com/kirthana17)  
-- Manasvi G V : (https://github.com/oomploompaluvr)
-- Mallikarjuna Rao R V : (https://github.com/mallikarjunramanadham1-sketch)
+- [**Mallikarjun Rao R.V**](https://github.com/mallikarjunrao-sketch)
+- [**Kirthana S**](https://github.com/kirthana17)
+- [**Manasvi G V**](https://github.com/oomploompaluvr)
+
 
 
 ## Acknowledgment
